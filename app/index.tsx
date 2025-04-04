@@ -2,16 +2,15 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { Link } from 'expo-router'
 
-const Home = () => {
-  
+const Index = () => {
   return (
     <View>
-      <Text>Home</Text>
-      <Link href={"/about"}>
+      <Text>Index</Text>
+      <Link href={"/home"}>
           Move 
         </Link>
     </View>
   )
 }
 
-export default Home
+export default Index

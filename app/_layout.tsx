@@ -1,5 +1,5 @@
 import '../global.css';
-import { Slot, Stack } from "expo-router";
+import { Slot, Stack, Tabs } from "expo-router";
 import { View, Text } from 'react-native';
 
 
@@ -19,17 +19,30 @@ const Footer = () => {
   )
 }
 
-
-// 
-{/* <Header />     Har page pe dikhna chahiye */}
-{/* <Slot />       Yahan current screen render hogi */}
-{/* <Footer />     {/* Har page p */}
-
 export default function Layout() {
   return (
-    <Stack>
-      <Stack.Screen name='index'/>
-    </Stack>
+    // <Stack
+    // screenOptions={{
+    //   headerShown: false
+    // }}
+    // >
+    //   always have intial file 
+    //   <Stack.Screen name='index'/>
+    //   <Stack.Screen name='about'/>
+    //   <Stack.Screen name='(tabs)'/>
+    //   <Stack.Screen name='(auth)'/>
+    // </Stack>
+    // <Tabs
+    // screenOptions={{
+    //   headerShown: false
+    // }}
+    // >
+    //   {/* always have intial file  */}
+    //   {/* <Tabs.Screen name='index'/> */}
+    //   <Tabs.Screen name='about'/>
+    //   <Tabs.Screen name='(tabs)'/>
+    // </Tabs>
+    <Slot />
   );
 }
 

@@ -1,12 +1,13 @@
-import {  Text, View } from 'react-native'
+import {Text, View } from 'react-native'
 import React from 'react'
 
-const NotFound = () => {
+const NotFoundScreen = () => {
   return (
     <View>
-      <Text>NotFound</Text>
+      <Text>NotFoundScreen</Text>
     </View>
   )
 }
 
-export default NotFound;
+export default NotFoundScreen
+
