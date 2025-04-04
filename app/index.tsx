@@ -9,6 +9,7 @@ const Index = () => {
       <Link href={"/pc/pic"}>
           Move 
         </Link>
+        
     </View>
   )
 }

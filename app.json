@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "scheme": "expo-router",
     "newArchEnabled": true,
+    
     "web": {
       "bundler": "metro",
       "output": "static",
@@ -19,7 +20,7 @@
     },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -29,7 +30,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true 
     },
     "android": {
       "adaptiveIcon": {
