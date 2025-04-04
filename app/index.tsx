@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <View>
       <Text>Index</Text>
-      <Link href={"/home"}>
+      <Link href={"/pc/pic"}>
           Move 
         </Link>
     </View>
