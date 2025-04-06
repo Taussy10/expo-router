@@ -1,6 +1,7 @@
 import '../global.css';
 import { Slot, Stack, Tabs } from "expo-router";
 import { View, Text } from 'react-native';
+import 'expo-dev-client';
 
 
 export const Header = () => {
