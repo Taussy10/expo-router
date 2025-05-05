@@ -27,7 +27,8 @@ export default function Layout() {
     //   headerShown: false
     // }}
     // >
-    //   always have intial file 
+    //   Firstly always execute a file which has name index 
+    // cause they represent "/" and are intial file 
     //   <Stack.Screen name='index'/>
     //   <Stack.Screen name='about'/>
     //   <Stack.Screen name='(tabs)'/>
